@@ -5,7 +5,10 @@
     line-height: 80%;
 }
 body{
-    background: black;
+    background-color: #2a2b38;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-repeat: no-repeat;
+    background-size: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,11 +25,11 @@ body{
 @keyframes slidein {
     from {
         margin-left: 4%;
-        width: 70px
+        width: 100px
     }
     to {
         margin-left: 2%;
-        width: 70px;
+        width: 100px;
     }
 }
 main{
@@ -103,6 +106,7 @@ main{
     background-image: url(/img/candado_cerrado.png);
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
     background-size: 50px;
     transition: 0.7s all;
 }
@@ -121,6 +125,7 @@ main{
     background-image: url(/img/candado_abierto.png);
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
     background-size: 100px;
     transition: 0.7s all;
 }
@@ -134,9 +139,11 @@ main{
 
 }
 .copiar:hover {
-    background-color: black;
+    background-color: #2a2b38;
+    border-radius: 100px;
     border: 2px solid white;
     color: white;
+    transition: 0.7s all;
 }
 .informacion{
     background-image: url(./img/Group.png);
